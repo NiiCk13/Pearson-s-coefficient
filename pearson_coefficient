@@ -24,6 +24,6 @@ def coeffPear(a:float,b:float ):
     somaXy = float(somaXy)
     somaXy = float(somaXy)
 
-    r = (somaXy-((somaX*somaY)/n)) / ((somaXx - ((somaX**2)/n)) * (somaYy - ((somaY**2)/n)))**0.5
+    r = (somaXy-((somaX*somaY)/n)) / ((somaXx - ((somaX**2)/n)) * (somaYy - ((somaY**2)/n)))**0.5 #pearson's formula
 
-    return round(r,3)
+    return round(r,3) # if you are working with diferents decimal precision, you could set up here to more precision our less precision.
